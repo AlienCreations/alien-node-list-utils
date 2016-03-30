@@ -1,0 +1,36 @@
+{
+  "name"            : "alien-node-list-utils",
+  "version"         : "0.0.1",
+  "description"     : "Helper functions for arrays on NodeJS",
+  "main"            : "lib/Lists.js",
+  "dependencies"    : {
+    "ramda" : "^0.20.x"
+  },
+  "devDependencies" : {
+    "coveralls" : "^2.11.2",
+    "istanbul"  : "^0.3.13",
+    "jasmine"   : "^2.3.1"
+  },
+  "scripts"         : {
+    "test" : "./node_modules/.bin/istanbul cover ./node_modules/.bin/jasmine"
+  },
+  "repository"      : {
+    "type" : "git",
+    "url"  : "https://github.com/aliencreations/alien-node-list-utils.git"
+  },
+  "keywords"        : [
+    "aliencreations",
+    "list",
+    "array",
+    "arrays",
+    "util",
+    "node",
+    "ramda"
+  ],
+  "author"          : "Sean Cannon",
+  "license"         : "MIT",
+  "bugs"            : {
+    "url" : "https://github.com/aliencreations/alien-node-list-utils/issues"
+  },
+  "homepage"        : "https://github.com/aliencreations/alien-node-list-utils"
+}
