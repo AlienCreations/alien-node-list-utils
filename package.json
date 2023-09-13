@@ -1,10 +1,10 @@
 {
   "name"            : "alien-node-list-utils",
-  "version"         : "0.0.1",
+  "version"         : "0.0.2",
   "description"     : "Helper functions for arrays on NodeJS",
   "main"            : "lib/Lists.js",
   "dependencies"    : {
-    "ramda" : "^0.20.x"
+    "ramda" : "^0.27.1"
   },
   "devDependencies" : {
     "coveralls" : "^2.11.2",
